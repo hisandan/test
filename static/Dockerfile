@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the static website files into the Nginx document root
-COPY landing2 /usr/share/nginx/html
+COPY landing /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
